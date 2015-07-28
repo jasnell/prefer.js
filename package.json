@@ -1,0 +1,29 @@
+{
+  "name": "prefer",
+  "version": "0.0.1",
+  "description": "HTTP Prefer Header Middleware",
+  "main": "prefer.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jasnell/prefer.js"
+  },
+  "keywords": [
+    "Prefer",
+    "HTTP",
+    "Middleware"
+  ],
+  "author": "James M Snell <jasnell@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasnell/prefer.js/issues"
+  },
+  "homepage": "https://github.com/jasnell/prefer.js",
+  "devDependencies": {
+    "express": "^4.13.1",
+    "mocha": "^2.2.5",
+    "request": "^2.60.0"
+  }
+}
