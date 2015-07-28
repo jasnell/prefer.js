@@ -1,5 +1,5 @@
 {
-  "name": "prefer",
+  "name": "prefer-js",
   "version": "0.0.1",
   "description": "HTTP Prefer Header Middleware",
   "main": "prefer.js",

@@ -4,7 +4,7 @@ Connect middleware for the Prefer Header (http://tools.ietf.org/html/rfc7230)
 
 Installation:
 ```
-npm install prefer
+npm install prefer-js
 ```
 
 Example:
