@@ -1,6 +1,6 @@
 ## HTTP Prefer Middleware
 
-Connect middleware for the Prefer Header (http://tools.ietf.org/html/rfc7230)
+Connect middleware for the Prefer Header (http://tools.ietf.org/html/rfc7240)
 
 Installation:
 ```
