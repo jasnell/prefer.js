@@ -3,13 +3,13 @@
 -----BEGIN PGP SIGNATURE-----
 Comment: GPGTools - https://gpgtools.org
 
-iQEcBAABCgAGBQJVtzxHAAoJEHNBsVwHCHesnOsH/iL9KoqKewAXo/9SzOsTHGx3
-9+2jCs1kXXE+OhYpJByRZRbTq6qCRPgPo7vHRWqkfCpliHFvIevYnR2QwyQ5Srkc
-nf1bJNRuiyaN0ccVg38QslV8Ln0kFkgT/FHMAH1r6EtR/PqD3erVvJ/B7SItn6B+
-9nFfj60PUHw6W7nwPANZXCT1Bm4Ixvhed64ssZtKhoU6qEIr43ftzWfiuUqe7MEb
-MYYZaAQzyL47RTlhj5FFrx+3Yqv49Y1uaR1/0my1N3yZSLNZXX1gunz0Y8hcWXLt
-CKusBnEmTr41iUCK19r8cmFft05FgAbCg9p3c68Yjn2NEaQ9ZdJUAAtiQxjZIEw=
-=ssVL
+iQEcBAABCgAGBQJV+r0TAAoJEHNBsVwHCHesfwAH/jrkRhRB30Ka+HWBUnxYkBrn
+WV+fI6dI53rdHACuCmta72xk66dxEuFGEoKnyGOE/CXvFt14Wkm8/PAOtg7C0KkM
+O0q8vFCvBbbBzZCmytEbVYzIdeL7G3utN6Ma0LTfalyOwNOc0Ae1Kwu+gRgjQ1x9
+uhntQ+Vhnzb2HYOMIx9QkTN7Ipdra6yf3gzstP5PiWbi4Nxg8mEw4hAx2t0grD9I
+FxKpjs08A62EopfAq8LHFLj6Xv55hq9zGpwQKd4WLthrKAIEjRe/72dszlg0HHA1
+n+ahSX9OQ2LqyZYrr9+M7pMI2ouADFSCA67KWPcUmq+odOamFaqSQcskcfzC98Y=
+=yUGQ
 -----END PGP SIGNATURE-----
 
 ```
@@ -24,12 +24,12 @@ CKusBnEmTr41iUCK19r8cmFft05FgAbCg9p3c68Yjn2NEaQ9ZdJUAAtiQxjZIEw=
 size  exec  file            contents                                                        
             ./                                                                              
 13            .gitignore    16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
-36            .jshintrc     f85bbd6c2c67d396f37bbb9a9a9da12a9b8b75bdcd16bcc752dbacce045c705d
-615           package.json  05554de5ff7889db78296da4af545e392d2d4439bcc44cd6cc2f0f3f2ca56ba5
-1914          prefer.js     ab0b87d622148bf9b85d1e968aa3426063546297b905d33dfc9ff4def6de3a24
+54            .jshintrc     153a57695fbb2124c1a558f3387d552b9f69eec046d4b9e604cd49aafc238723
+615           package.json  8e5d0f37d2bf32d583bc8a63926900f22dcd6900aa9d347a9a326fb635b2c56c
+1919          prefer.js     a3734b840ce705f2303026fdf30385779d2cadb55ba7ec2b85492d449a2c63dc
 1103          README.md     06b053f674de7e621b983f6391261f4a0d84e2361b2a54da1809798579d0fa43
               test/                                                                         
-1076            test.js     625efb8a8d67336afe2d77a096edf37fdac56cd138b46d73008bc823d2d13c7c
+1087            test.js     2ee0af481be1fce5144bf50d9e12d5040c9049b35a38efa199a90f46165008dd
 ```
 
 #### Ignore

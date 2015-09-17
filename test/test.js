@@ -1,10 +1,11 @@
 'use strict';
-var assert = require('assert');
-var request = require('request');
-var app = require('express')();
-var prefer = require('../prefer');
+
+const assert = require('assert');
+const request = require('request');
+const app = require('express')();
+const prefer = require('../prefer');
 app.use(prefer);
-var port = 8888;
+const port = 8888;
 describe('It works', function() {
   before(function() {
     app.get('/', function(req,res) {

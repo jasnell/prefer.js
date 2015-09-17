@@ -1,7 +1,8 @@
 'use strict';
 
-var token = /^[a-z0-9\!\#\$\%\&\'\*\+\-\.\^\_\`\|\~]+$/i;
-var mid = /[\!\#\$\%\&\'\*\+\-\.\^\_\`\|\~]+(\w|$)/ig;
+const token = /^[a-z0-9\!\#\$\%\&\'\*\+\-\.\^\_\`\|\~]+$/i;
+const mid = /[\!\#\$\%\&\'\*\+\-\.\^\_\`\|\~]+(\w|$)/ig;
+
 function camelCase(name) {
   name = name.trim().toLowerCase();
   if (name.length === 0) return name;
@@ -10,19 +11,19 @@ function camelCase(name) {
 }
 
 function parser(input) {
-  var result = {};
-  var current = '', quoted = false;
+  let result = {};
+  let current = '', quoted = false;
   function set(item) {
-    var split = item.split('=',2);
-    var name = split[0];
+    let split = item.split('=',2);
+    let name = split[0];
     if (token.test(name)) {
-      var value = split[1] || true;
+      let value = split[1] || true;
       if(!isNaN(value) && typeof value !== 'boolean')
         value = Number(value);
       result[camelCase(name)] = value;
     }
   }
-  for (var n = 0, l = input.length; n < l; n++) {
+  for (let n = 0, l = input.length; n < l; n++) {
     if (input[n] === ',' && !quoted) {
       if (current.trim().length > 0)
         set(current.trim());
@@ -45,7 +46,7 @@ function Prefer(req, res, next) {
     if (typeof pref === 'string')
       this.append('Preference-Applied', pref);
   };
-  var pref = req.get('Prefer');
+  let pref = req.get('Prefer');
   if (pref !== undefined) {
     req.prefer = parser(pref);
   }

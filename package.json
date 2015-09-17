@@ -1,6 +1,6 @@
 {
   "name": "prefer-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "HTTP Prefer Header Middleware",
   "main": "prefer.js",
   "scripts": {
@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/jasnell/prefer.js",
   "devDependencies": {
-    "express": "^4.13.1",
-    "mocha": "^2.2.5",
-    "request": "^2.60.0"
+    "express": "^4.13.3",
+    "mocha": "^2.3.2",
+    "request": "^2.62.0"
   }
 }
